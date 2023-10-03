@@ -1,0 +1,481 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: auto;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #1b3764;
+}
+
+.heroContent {
+    margin: 0 auto;
+    width: 70%; 
+}
+
+.navbar{
+    padding-top: 30px;
+}
+.logo{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-right: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.fa-book-bookmark{
+    color: #fec942;
+	float: left;
+    font-size: larger;
+	margin-top: 4px;
+    margin-right: 7px;
+
+}
+.social{
+	list-style-type: none;
+	float: left;
+	font-size: 10px;
+    margin-left: 5px;
+    padding: 7px;
+    background-color: white;
+	
+}
+.tap{
+    margin-left: 32% !important;
+}
+.tap_list{
+	font-size: 18px;
+	color: white;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    margin-left: 8%;
+    margin-right: -3%;
+    margin-top: 2px;
+}
+.fa-cart-shopping{
+	margin-left: -0.5%;
+    color: white;
+	margin-top: 7px;
+	position: absolute;
+
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color:  #fec942;
+    border-radius: 50%;
+    margin-left: 30%;
+    color: black;
+    display: flex;
+}
+.circle-number{
+    margin-left: .2%;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 3px;
+}
+.main-content{
+    margin-top: 35px;
+    width: 100%;
+    height: 655px;
+}
+.book-info{
+    width: 50% !important;
+    height: 500px;
+    display: inline;
+    float: left;
+}
+.Orderbtn{
+	padding: .8% 3%;
+	background-color: #fec942;
+	color: #1b3764;
+	border: #fec942;
+	position: absolute;
+    margin-top: -7px;
+    font-size: 15px;
+    display: flex;
+}
+.book{
+	margin-top: 60px;
+    margin-left: 22%;
+    width: 74%;
+    height: 520px;
+}
+.bookImg{
+    width: 50%;
+    float: right;
+    height: 500px;
+    display: inline;
+
+}
+.dash{
+	height: 2px;
+    width: 30px;
+    position: absolute;
+    margin-top: 141px;
+    background-color: #fec942;
+    border: none;
+}
+.welome-p1{
+	position: absolute;
+    margin-top: 130px;
+    margin-left: 45px;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    opacity: .7;
+}
+h1{
+    margin-top: 164px;
+    color: white;
+    font-size: 47px;
+    display: flex;
+}
+.welome-p2{
+    margin-top: 17px;
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+    display: flex;
+}
+.welome-btn{
+    padding: 11px 39px;
+    background-color: #fec942;
+    color: #1b3764;
+    border: #fec942;
+    margin-top: 21px;
+    display: flex;
+}
+.welome-p3{
+    margin-top: -28px;
+    margin-left: 180px;
+    color: white;
+    display: flex;
+}
+.welome-p3hr{
+    width: 22%;
+    background-color: white;
+    height: 1px;
+    border: none;
+    margin-top: 2px;
+    margin-left: 178px;
+    display: flex;
+}
+.book-info ul{
+    display: flex;
+}
+.statistics{
+    list-style-type: none;
+    float: left;
+    margin-top: 24px;
+    margin-right: 49px;
+    font-size: 23px;
+    color: white;
+    display: flex;
+}
+.statistics::before {
+	content: "\2022"; /* يُستخدم رمز النقطة لإنشاء نقطة دائرية */
+	color: #fec942  ;
+	margin-right: 8px;
+	font-size: 30px;
+}
+.value{
+	font-size: 12px;
+    margin-left: 19px;
+    opacity: .7;
+    display: contents;
+}
+/* ******* */
+#About{
+    margin: auto;
+    width: 70%;
+    height:auto;
+}
+.main-about{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+}
+#About h2,#Chapter h2,#articals h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    color: #1b3764;
+}
+#About hr,#Chapter hr,#articals hr{
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    background-color: #fec942;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+.about-info{
+    margin-top: 40px;
+    width: 45%;
+    display: flex;
+}
+.aboutContent{
+    display: grid; 
+}
+.Content{
+    width: 95%;
+    height: 220px;
+    background-color: #f4f8ff;
+    float: left;
+    margin-left: 12px;
+}
+.Aboutcircle{
+    width: 30px;
+    height: 30px;
+    background-color: #fec942;
+    border-radius: 50%;
+    margin: 20px 15px;
+    color: black;
+}
+.Aboutcircle-number{
+    margin: 6px 8px;
+    font-size: 15px;
+    position: absolute;
+}
+.Content p{
+    color: #1b3764;
+    padding: 21px;
+    font-size: 18px;
+    margin-top: -24px;
+    font-weight: bold;
+}
+.about-cover{
+    width: 45%;
+    margin-top: 40px;
+}
+.borderImg{
+    display: flex;
+    width: 90%;
+    height: 459px;
+    margin-left: 100px;
+    border: 7px solid #fec942;
+}
+.aboutImg{
+    width: 102%;
+    height: 452px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+/* ****** */
+#Chapter{
+    width: 100%;
+    height: auto;
+    background-color: #f4f8ff;
+}
+.main-Chapter{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.Chapter{
+    display: grid;
+}
+.ChapterDetails{
+    width: 95%;
+    height: auto;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 24px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.ChapterDetails h3{
+    padding: 25px;
+    color: #1b3764;
+}
+.ChapterDetails p{
+    padding: 25px;
+    margin-top: -35px;
+    color: black;
+    opacity: .7;
+    line-height: 25px;
+}
+.ChapterDetails ul{
+    display: flex;
+}
+.ChapterDetails ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 26px;
+    margin-top: -7px;
+    font-size: 18px;
+    color: #1b3764;
+    font-weight: bold;
+}
+.Pages{
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: -47px !important;
+    font-weight: 100;
+}
+.Chapterbtn{
+    border: 0;
+    margin: auto;
+    display: block;
+    padding: 1% 4%;
+    background-color: #fec942;
+}
+.desc{
+    text-align: center;
+    margin-top: 15px;
+    opacity: .7;
+}
+.cont{
+    text-align: center;
+    margin-left: 136px;
+    margin-top: -16px;
+    opacity: .7;
+    padding-bottom: 35px;
+
+}
+#Chapter a{
+    color: #1b3764;
+}
+#Chapter a p{
+    text-align: center;
+    margin-right: 80px;
+}
+/* ****** */
+#articals{
+    height: auto;
+    margin-bottom: 30px;
+}
+.articalsCont{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.card{
+    width: 29.3%;
+    height: 450px;
+    float: left;
+    margin-left: 3%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.card img{
+    width: 100%;
+}
+.articalsCont h3{
+    padding: 15px;
+    color: #1b3764;
+}
+.articalsCont p{
+    padding: 15px;
+    margin-top: -20px;
+    line-height: 20px;
+    opacity: .7;
+}
+.articalsCont a{
+    margin-left: 15px;
+    color: #1b3764;
+}
+.articalsCont h5{
+    float: right;
+    color: #1b3764;
+    margin-right: 19px;
+    margin-top: 4px;
+}
+/* ***** */
+#footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1b3764;
+}
+
+#footer hr {
+    width: 70%;
+    height: 0.5px;
+    background-color: white;
+    opacity: 0.4;
+    border: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 146px;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+#footer span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+/* ************ */  
+  @media (max-width: 941px) {
+    .tap_list{
+      font-size: 15px;
+    }
+    .Orderbtn{
+        padding: .5% 2%;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .book-info{
+        display: block;
+        width: 100% !important;
+    }
+    .book {
+        width: 100%;
+        height: 391px;
+        margin-left: -45%;    
+    }
+    .main-about{
+        display: block;
+        height: auto;
+    }
+    .about-info{
+        width: 100%;
+    }
+    .Content{
+        margin-bottom: 30px;
+    }
+    .about-cover{
+        width: 100%;
+        display: flex;
+    }
+    .main-Chapter{
+        display: block;
+    }
+    .articalsCont{
+        display: block;
+        height: auto;
+
+    }
+    .card {
+        width: 50%;
+        height: 450px;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+  }
